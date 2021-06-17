@@ -47,3 +47,4 @@ do_install_append() {
 }
 
 LDFLAGS_append_riscv64 = " -pthread"
+LDFLAGS_append_riscv32 = " -latomic"
